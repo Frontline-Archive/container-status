@@ -1,0 +1,29 @@
+{
+  "name": "@sinet/container-status",
+  "version": "1.0.0",
+  "description": "Simple way to provide the status of a container",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint",
+    "jscs": "jscs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/School-Improvement-Network/container-status.git"
+  },
+  "author": "School Improvement Network",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/School-Improvement-Network/container-status/issues"
+  },
+  "homepage": "https://github.com/School-Improvement-Network/container-status#readme",
+  "devDependencies": {
+    "eslint": "^0.24.1",
+    "jscs": "^1.13.1",
+    "sinet-coding-conventions": "^1.31.0"
+  },
+  "dependencies": {
+    "@sinet/git-refs": "^1.0.0"
+  }
+}
