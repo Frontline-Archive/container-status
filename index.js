@@ -5,7 +5,7 @@ var os      = require( 'os' );
 var path    = require( 'path' );
 
 var Status = function () {
-	this.commit   = '';
+	this.commit   = null;
 	this.uptime   = process.uptime();
 	this.hostname = os.hostname();
 	this.totalmem = os.totalmem();
@@ -16,8 +16,7 @@ var Status = function () {
 
 	gitRefs( path.join( process.cwd(), '.git' ), function ( error, refs ) {
 		if ( error ) {
-			self.commit = 'undetermined';
-			return console.log( error );
+			return;
 		}
 
 		self.commit = refs.current.head;
