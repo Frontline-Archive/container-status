@@ -1,6 +1,6 @@
 {
   "name": "@sinet/container-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple way to provide the status of a container",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "sinet-istanbul-coverage-enforcement": "^1.0.0"
   },
   "dependencies": {
-    "@sinet/git-refs": "^1.0.0"
+    "@sinet/git-refs": "^1.1.0"
   }
 }
