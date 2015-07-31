@@ -1,4 +1,7 @@
 # Container Status
+[![Build Status][travis-badge]][travis-badge-link]
+[![Dependency Status][david-badge]][david-badge-link]
+[![devDependency Status][david-dev-badge]][david-dev-badge-link]
 
 A simple package to determine the status of a container. It provides the following type of data:
 
@@ -34,3 +37,11 @@ setTimeout(function () {
 
 ## Contributing
 All pull requests must follow [coding conventions and standards](https://github.com/School-Improvement-Network/coding-conventions).
+
+[david-badge]: https://david-dm.org/School-Improvement-Network/container-status.svg
+[david-badge-link]: https://david-dm.org/School-Improvement-Network/container-status
+[david-dev-badge]: https://david-dm.org/School-Improvement-Network/container-status/dev-status.svg
+[david-dev-badge-link]: https://david-dm.org/School-Improvement-Network/container-status
+[david-dev-badge-link]: https://david-dm.org/School-Improvement-Network/container-status#info=devDependencies
+[travis-badge]: https://travis-ci.org/School-Improvement-Network/container-status.svg
+[travis-badge-link]: https://travis-ci.org/School-Improvement-Network/container-status
