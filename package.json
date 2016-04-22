@@ -35,6 +35,6 @@
     "sinet-istanbul-coverage-enforcement": "^1.0.0"
   },
   "dependencies": {
-    "@sinet/git-refs": "^1.1.0"
+    "@sinet/git-refs": "^2.0.0"
   }
 }
