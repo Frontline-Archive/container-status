@@ -2,17 +2,15 @@
 
 /* eslint no-unused-expressions:0 */
 
-var assert = require( 'assert' );
+const assert = require( 'assert' );
 
 require( 'should' );
 
 describe( 'container status', function () {
-
-	var result;
-	var uptime;
+	let result, uptime;
 
 	before( function ( done ) {
-		var Status = require( '../' );
+		let Status = require( '../' );
 
 		result = new Status();
 		uptime = result.uptime;
@@ -33,7 +31,6 @@ describe( 'container status', function () {
 	} );
 
 	describe( 'status.update()', function () {
-
 		before( function ( done ) {
 			// Force it to wait to update the time
 			setTimeout( function () {
@@ -52,17 +49,14 @@ describe( 'container status', function () {
 			// result.should.have.property( 'freemem' ).and.be.a.Number;
 			result.should.have.property( 'loadavg' ).and.be.an.Array;
 		} );
-
 	} );
 } );
 
 describe( 'without `.git` folder', function () {
-
-	var result;
-	var originalCWD;
+	let result, originalCWD;
 
 	before( function ( done ) {
-		var Status = require( '../' );
+		let Status = require( '../' );
 
 		// Backup process.cwd so we can restore after
 		originalCWD = process.cwd;
@@ -91,5 +85,4 @@ describe( 'without `.git` folder', function () {
 		result.should.have.property( 'freemem' ).and.be.a.Number;
 		result.should.have.property( 'loadavg' ).and.be.an.Array;
 	} );
-
 } );

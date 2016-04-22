@@ -1,10 +1,10 @@
 'use strict';
 
-var gitRefs = require( '@sinet/git-refs' );
-var os      = require( 'os' );
-var path    = require( 'path' );
+const gitRefs = require( '@sinet/git-refs' );
+const os      = require( 'os' );
+const path    = require( 'path' );
 
-var Status = function () {
+let Status = function () {
 	this.commit   = null;
 	this.uptime   = process.uptime();
 	this.hostname = os.hostname();
@@ -12,7 +12,7 @@ var Status = function () {
 	this.freemem  = os.freemem();
 	this.loadavg  = os.loadavg();
 
-	var self = this;
+	let self = this;
 
 	gitRefs( path.join( process.cwd(), '.git' ), function ( error, refs ) {
 		if ( error ) {
