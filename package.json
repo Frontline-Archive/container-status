@@ -1,6 +1,6 @@
 {
   "name": "@sinet/container-status",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Simple way to provide the status of a container",
   "main": "index.js",
   "scripts": {
