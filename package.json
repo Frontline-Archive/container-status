@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/School-Improvement-Network/container-status.git"
+    "url": "git+https://github.com/sinet/container-status.git"
   },
   "author": "School Improvement Network",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/School-Improvement-Network/container-status/issues"
+    "url": "https://github.com/sinet/container-status/issues"
   },
-  "homepage": "https://github.com/School-Improvement-Network/container-status#readme",
+  "homepage": "https://github.com/sinet/container-status#readme",
   "devDependencies": {
     "del": "^1.2.0",
     "eslint": "^0.24.1",
